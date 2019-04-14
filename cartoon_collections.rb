@@ -15,7 +15,7 @@ end
 def find_the_cheese(array_of_strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
   if array_of_strings.include?(cheese_types)
-    array_of_strings.first(cheese_types)
+    array_of_strings.take(cheese_types)
   else
     return nil 
   end 
